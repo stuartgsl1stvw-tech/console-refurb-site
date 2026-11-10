@@ -1,211 +1,445 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Console Refurb</title>
+<meta name="description" content="Console Refurb provides console repairs, refurbished gaming consoles, bespoke software development and professional website design.">
 
-  <meta
-    name="description"
-    content="Console Refurb - repair, refurbishment and software solutions for gaming consoles."
-  >
+<meta name="theme-color" content="#0c1017">
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+<title>Console Refurb | Technology, Repairs & Development</title>
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0f1115;
-      color: #f5f7fa;
-      line-height: 1.6;
-    }
+<link rel="stylesheet" href="style.css">
 
-    .container {
-      width: min(900px, 92%);
-      margin: 0 auto;
-    }
-
-    header {
-      padding: 70px 0 45px;
-      text-align: center;
-    }
-
-    .logo {
-      width: 72px;
-      height: 72px;
-      margin: 0 auto 20px;
-      border-radius: 18px;
-      background: #1976d2;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 34px;
-      font-weight: bold;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 42px;
-      letter-spacing: -1px;
-    }
-
-    .tagline {
-      margin: 12px auto 0;
-      max-width: 600px;
-      color: #aeb6c2;
-      font-size: 18px;
-    }
-
-    main {
-      padding: 20px 0 70px;
-    }
-
-    .card {
-      background: #181b21;
-      border: 1px solid #292e37;
-      border-radius: 18px;
-      padding: 30px;
-      margin-bottom: 20px;
-    }
-
-    .card h2 {
-      margin-top: 0;
-    }
-
-    .links {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 15px;
-      margin-top: 25px;
-    }
-
-    .link {
-      display: block;
-      padding: 18px;
-      border-radius: 12px;
-      background: #20242c;
-      color: #ffffff;
-      text-decoration: none;
-      border: 1px solid #303641;
-      transition: 0.2s;
-    }
-
-    .link:hover {
-      background: #272d36;
-      border-color: #1976d2;
-    }
-
-    .link strong {
-      display: block;
-      margin-bottom: 4px;
-    }
-
-    .link span {
-      color: #aeb6c2;
-      font-size: 14px;
-    }
-
-    footer {
-      padding: 30px 0 45px;
-      border-top: 1px solid #292e37;
-      text-align: center;
-      color: #8f98a5;
-      font-size: 14px;
-    }
-
-    footer a {
-      color: #aeb6c2;
-      margin: 0 10px;
-    }
-
-    @media (max-width: 600px) {
-      header {
-        padding-top: 50px;
-      }
-
-      h1 {
-        font-size: 34px;
-      }
-
-      .card {
-        padding: 22px;
-      }
-    }
-  </style>
 </head>
 
 <body>
 
-  <header>
+<header>
+    <div class="container navbar">
+
+    <a href="index.html" class="brand">
+        <span class="brand-mark">CR</span>
+        <span>Console Refurb</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="shop/">Shop</a>
+        <a href="#software">Software</a>
+        <a href="about/">About</a>
+        <a href="#contact">Contact</a>
+        <a href="mailto:consolerefurb@outlook.com" class="button">
+            Get in touch
+        </a>
+    </nav>
+
+</div>
+
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero">
     <div class="container">
 
-      <div class="logo">CR</div>
+        <span class="eyebrow">
+            Technology • Repairs • Development
+        </span>
 
-      <h1>Console Refurb</h1>
-
-      <p class="tagline">
-        Console repair, refurbishment and software solutions.
-      </p>
-
-    </div>
-  </header>
-
-  <main>
-    <div class="container">
-
-      <section class="card">
-        <h2>Welcome to Console Refurb</h2>
+        <h1>Technology solutions built around you.</h1>
 
         <p>
-          Console Refurb provides repair, refurbishment and technology
-          solutions for gaming consoles and related software projects.
+            From console repairs and refurbishment to software development
+            and professional websites, Console Refurb brings technology
+            and practical solutions together.
         </p>
 
-        <p>
-          We also develop software designed to make the repair process
-          simpler for customers and repair businesses.
-        </p>
-      </section>
+        <div class="hero-actions">
 
-      <section class="card">
-        <h2>Important Information</h2>
+            <a href="#services" class="button">
+                Explore our services
+            </a>
 
-        <div class="links">
-
-          <a class="link" href="/privacy">
-            <strong>Privacy Policy</strong>
-            <span>How we handle personal information and app data.</span>
-          </a>
-
-          <a class="link" href="/terms">
-            <strong>Terms &amp; Conditions</strong>
-            <span>Terms governing use of our products and services.</span>
-          </a>
+            <a href="#software" class="button secondary">
+                Discover our software
+            </a>
 
         </div>
-      </section>
 
     </div>
-  </main>
+</section>
 
-  <footer>
+
+<!-- SERVICES -->
+
+<section id="services">
     <div class="container">
 
-      <div>
-        <a href="/privacy">Privacy Policy</a>
-        <a href="/terms">Terms &amp; Conditions</a>
-      </div>
+        <div class="section-heading">
 
-      <p>
-        &copy; 2026 Console Refurb. All rights reserved.
-      </p>
+            <span class="eyebrow">What we do</span>
+
+            <h2>Our services</h2>
+
+            <p>
+                Practical technology services for individuals, businesses
+                and organisations.
+            </p>
+
+        </div>
+
+
+        <div class="grid">
+
+            <article class="card">
+
+                <div class="card-icon">🎮</div>
+
+                <h3>Console Repairs</h3>
+
+                <p>
+                    Console diagnostics, fault finding, component-level repairs
+                    and refurbishment. Get your console working again.
+                </p>
+
+                <a href="repairs/" class="text-link">
+                    Explore repair services →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">💻</div>
+
+                <h3>Software Development</h3>
+
+                <p>
+                    Custom applications and business software designed to solve
+                    real problems and simplify everyday processes.
+                </p>
+
+                <a href="software/" class="text-link">
+                    Explore our software →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">🌐</div>
+
+                <h3>Website Design & Development</h3>
+
+                <p>
+                    Modern, responsive websites for businesses, including
+                    landing pages, online booking systems and bespoke features.
+                </p>
+
+                <a href="websites/" class="text-link">
+                    Discuss a website project →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">🕹️</div>
+
+                <h3>Refurbished Consoles</h3>
+
+                <p>
+                    Repaired and refurbished gaming consoles, with attention
+                    to reliability, quality and value.
+                </p>
+
+                <a href="shop/" class="text-link">
+                    Explore the shop →
+                </a>
+
+            </article>
+
+        </div>
 
     </div>
-  </footer>
+</section>
+
+
+<!-- OUR SOFTWARE -->
+
+<section id="software">
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="eyebrow">Built by Console Refurb</span>
+
+            <h2>Our software</h2>
+
+            <p>
+                We design and develop practical software to make everyday
+                business processes simpler, more efficient and easier to manage.
+            </p>
+
+        </div>
+
+
+        <div class="grid">
+
+            <article class="card">
+
+                <div class="card-icon">📦</div>
+
+                <h3>
+                    <a href="software/flipsmart/">
+                        FlipSmart Console Refurb
+                    </a>
+                </h3>
+
+                <p>
+                    Manage console purchases, inventory, refurbishment,
+                    components, listings, sales and financial performance
+                    in one application.
+                </p>
+
+                <span class="text-link">
+                    Currently in development and testing
+                </span>
+
+                <a href="software/flipsmart/" class="text-link">
+                    Explore FlipSmart →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">🔧</div>
+
+                <h3>
+                    <a href="software/repair-platform/">
+                        Repair Platform
+                    </a>
+                </h3>
+
+                <p>
+                    A repair management solution connecting customers
+                    with repair businesses, from initial enquiries
+                    through to completed repairs.
+                </p>
+
+                <span class="text-link">
+                    Under development
+                </span>
+
+                <a href="software/repair-platform/" class="text-link">
+                    Explore Repair Platform →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-icon">🧾</div>
+
+                <h3>
+                    <a href="software/invoice-maker/">
+                        Invoice Maker
+                    </a>
+                </h3>
+
+                <p>
+                    A straightforward invoicing application designed
+                    to help individuals and businesses create,
+                    manage and produce professional invoices.
+                </p>
+
+                <span class="text-link">
+                    Preparing for release
+                </span>
+
+                <a href="software/invoice-maker/" class="text-link">
+                    Explore Invoice Maker →
+                </a>
+
+            </article>
+
+        </div>
+
+
+        <div style="text-align: center; margin-top: 30px;">
+
+            <a href="software/" class="button">
+                Discover our software
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- BUILT BY US, USED BY US -->
+
+<section>
+    <div class="container">
+
+        <div class="highlight">
+
+            <span class="eyebrow">
+                Built by us. Used by us.
+            </span>
+
+            <h2>Software developed to solve real business problems.</h2>
+
+            <p>
+                At Console Refurb, we don't just provide technology services.
+                We also design and develop our own software to help manage
+                the work we do.
+            </p>
+
+            <p>
+                Our applications are being developed around real business
+                requirements, including inventory management, refurbishment,
+                customer repairs and invoicing.
+            </p>
+
+            <p>
+                Rather than simply demonstrating software through screenshots
+                and presentations, our ambition is to use these products
+                within our own business and demonstrate how they work
+                together in a real operating environment.
+            </p>
+
+            <p>
+                This gives us the opportunity to continually test, improve
+                and develop our products while creating practical solutions
+                that other businesses can use.
+            </p>
+
+            <a href="software/" class="text-link">
+                Find out more about our software →
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+    <div class="container">
+
+        <div class="highlight">
+
+            <span class="eyebrow">
+                About Console Refurb
+            </span>
+
+            <h2>Technology with a practical purpose.</h2>
+
+            <p>
+                Console Refurb combines hands-on electronics repair experience
+                with software development. Our aim is to create useful,
+                accessible technology solutions while providing reliable
+                repair and refurbishment services.
+            </p>
+
+            <p>
+                Whether it's repairing a console, developing an application
+                or creating a website for a business, we believe technology
+                should make life easier.
+            </p>
+
+            <a href="about/" class="text-link">
+                Learn more about Console Refurb →
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact-section">
+
+    <div class="container">
+
+        <span class="eyebrow">
+            Let's talk
+        </span>
+
+        <h2>Have a project or need a repair?</h2>
+
+        <p>
+            Get in touch to discuss a repair, software project,
+            website or other technology requirements.
+        </p>
+
+        <a href="mailto:consolerefurb@outlook.com" class="button">
+            Contact Console Refurb
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container footer-content">
+
+    <span>
+        © <span id="year"></span> Console Refurb.
+        All rights reserved.
+    </span>
+
+    <div class="footer-links">
+
+        <a href="about/">About</a>
+
+        <a href="shop/">Shop</a>
+
+        <a href="websites/">Websites</a>
+
+        <a href="warranty/">Warranty & Returns</a>
+
+        <a href="approved-repairers/">Approved Repairers</a>
+
+        <a href="privacy/">Privacy Policy</a>
+
+        <a href="terms/">Terms & Conditions</a>
+
+        <a href="contact/">Contact</a>
+
+    </div>
+
+</div>
+
+</footer>
+
+<script>
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+</script>
 
 </body>
 </html>

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Console Refurb about console repairs, software development, website design and product updates.">
+  <meta name="theme-color" content="#0c1017">
+
+  <title>Contact & Updates | Console Refurb</title>
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="container navbar">
+
+    <a href="../index.html" class="brand">
+      <span class="brand-mark">CR</span>
+      <span>Console Refurb</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="../index.html#services">Services</a>
+      <a href="../software/">Software</a>
+      <a href="../websites/">Websites</a>
+      <a href="../index.html#about">About</a>
+      <a href="#contact" class="button">Contact Us</a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+
+      <span class="eyebrow">Get in touch</span>
+
+      <h1>We'd love to hear from you.</h1>
+
+      <p>
+        Whether you're interested in a console repair,
+        one of our software products, a new website
+        or simply have a question, we're here to help.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="button">Contact Console Refurb</a>
+        <a href="#newsletter" class="button secondary">Join our mailing list</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">Contact options</span>
+
+        <h2>How can we help?</h2>
+
+        <p>
+          Choose the area you'd like to discuss and get in touch.
+        </p>
+
+      </div>
+
+      <div class="grid">
+
+        <article class="card">
+          <div class="card-icon">🎮</div>
+          <h3>Console Repairs</h3>
+
+          <p>
+            Questions about console repairs, diagnostics
+            or refurbishment?
+          </p>
+
+          <a href="mailto:consolerefurb@outlook.com?subject=Console%20Repair%20Enquiry"
+             class="text-link">
+            Make a repair enquiry →
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">💻</div>
+          <h3>Software Development</h3>
+
+          <p>
+            Interested in FlipSmart, Repair Platform,
+            Invoice Maker or bespoke software?
+          </p>
+
+          <a href="mailto:consolerefurb@outlook.com?subject=Software%20Enquiry"
+             class="text-link">
+            Make a software enquiry →
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🌐</div>
+          <h3>Website Development</h3>
+
+          <p>
+            Looking for a new website, booking system
+            or help improving an existing website?
+          </p>
+
+          <a href="mailto:consolerefurb@outlook.com?subject=Website%20Development%20Enquiry"
+             class="text-link">
+            Discuss a website project →
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🕹️</div>
+          <h3>Refurbished Consoles</h3>
+
+          <p>
+            Want to enquire about refurbished consoles
+            or current stock availability?
+          </p>
+
+          <a href="mailto:consolerefurb@outlook.com?subject=Console%20Sales%20Enquiry"
+             class="text-link">
+            Ask about availability →
+          </a>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="container">
+
+      <div class="highlight">
+
+        <span class="eyebrow">Stay connected</span>
+
+        <h2>Join the Console Refurb mailing list.</h2>
+
+        <p>
+          Be among the first to hear about new applications,
+          software releases, development updates and special offers.
+        </p>
+
+        <ul style="color: var(--muted); padding-left: 20px;">
+          <li>New application releases.</li>
+          <li>Early access testing opportunities.</li>
+          <li>Software and feature announcements.</li>
+          <li>Console refurbishment news and offers.</li>
+        </ul>
+
+        <form id="newsletter-form" style="margin-top: 25px;">
+
+          <label for="newsletter-email"
+                 style="display: block; margin-bottom: 8px;">
+            Your email address
+          </label>
+
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+
+            <input
+              type="email"
+              id="newsletter-email"
+              name="email"
+              placeholder="Enter your email address"
+              autocomplete="email"
+              maxlength="254"
+              required
+              style="
+                flex: 1;
+                min-width: 220px;
+                padding: 14px;
+                border-radius: 8px;
+                border: 1px solid var(--border);
+                background: var(--background);
+                color: var(--text);
+                font-size: 1rem;
+              "
+            >
+
+            <button type="submit" id="newsletter-button" class="button">
+              Join Mailing List
+            </button>
+
+          </div>
+
+          <label style="
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-top: 18px;
+            color: var(--muted);
+            font-size: 0.9rem;
+          ">
+
+            <input
+              type="checkbox"
+              id="newsletter-consent"
+              required
+              style="margin-top: 5px;"
+            >
+
+            <span>
+              I agree to receive marketing emails and updates
+              from Console Refurb. I understand I can unsubscribe
+              at any time. Please read our
+              <a href="../privacy/" style="color: #64b0ff;">
+                Privacy Policy
+              </a>.
+            </span>
+
+          </label>
+
+          <p id="newsletter-message"
+             role="status"
+             aria-live="polite"
+             style="margin-top: 15px;">
+          </p>
+
+        </form>
+
+        <p style="font-size: 0.85rem; margin-top: 20px;">
+          Your email address will only be used for the updates
+          you've agreed to receive.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact-section">
+
+    <div class="container">
+
+      <span class="eyebrow">Prefer email?</span>
+
+      <h2>Get in touch directly.</h2>
+
+      <p>
+        You can contact us directly using our current business
+        email address. We'll be happy to discuss your enquiry.
+      </p>
+
+      <a href="mailto:consolerefurb@outlook.com" class="button">
+        consolerefurb@outlook.com
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+
+    <div class="container footer-content">
+
+        <span>
+            © <span id="year"></span> Console Refurb.
+            All rights reserved.
+        </span>
+
+        <div class="footer-links">
+
+            <a href="../about/">About</a>
+
+            <a href="../shop/">Shop</a>
+
+            <a href="../repairs/">Repairs</a>
+
+            <a href="../software/">Software</a>
+
+            <a href="../websites/">Websites</a>
+
+            <a href="../warranty/">Warranty & Returns</a>
+
+            <a href="../approved-repairers/">Approved Repairers</a>
+
+            <a href="../privacy/">Privacy Policy</a>
+
+            <a href="../terms/">Terms & Conditions</a>
+
+            <a href="../contact/">Contact</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script type="module">
+
+  // Firebase imports
+
+  import { initializeApp } from
+    "https://www.gstatic.com/firebasejs/13.2.0/firebase-app.js";
+
+  import {
+    initializeAppCheck,
+    ReCaptchaEnterpriseProvider
+  } from
+    "https://www.gstatic.com/firebasejs/13.2.0/firebase-app-check.js";
+
+  import {
+    getFirestore,
+    doc,
+    setDoc,
+    serverTimestamp
+  } from
+    "https://www.gstatic.com/firebasejs/13.2.0/firebase-firestore.js";
+
+
+  // Firebase configuration
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDMy6b5jKG7QwtxMf1QpdYt-Ah3hjDyyY8",
+    authDomain: "console-refurb-website.firebaseapp.com",
+    projectId: "console-refurb-website",
+    storageBucket: "console-refurb-website.firebasestorage.app",
+    messagingSenderId: "631836214307",
+    appId: "1:631836214307:web:61caa8d5b550c4e27d1d96"
+  };
+
+
+  // Initialise Firebase
+
+  const app = initializeApp(firebaseConfig);
+
+
+  // Initialise Firebase App Check
+
+  const appCheck = initializeAppCheck(app, {
+
+    provider: new ReCaptchaEnterpriseProvider(
+      "6LcKUhMuAAAAAPkrwaKWWbmighRznQk8WGjw4LKG"
+    ),
+
+    isTokenAutoRefreshEnabled: true
+
+  });
+
+
+  // Initialise Firestore after App Check
+
+  const db = getFirestore(app);
+
+
+  // Footer year
+
+  document.getElementById("year").textContent =
+    new Date().getFullYear();
+
+
+  // Newsletter elements
+
+  const newsletterForm =
+    document.getElementById("newsletter-form");
+
+  const newsletterEmail =
+    document.getElementById("newsletter-email");
+
+  const newsletterConsent =
+    document.getElementById("newsletter-consent");
+
+  const newsletterButton =
+    document.getElementById("newsletter-button");
+
+  const newsletterMessage =
+    document.getElementById("newsletter-message");
+
+
+  // Newsletter registration
+
+  newsletterForm.addEventListener("submit", async function(event) {
+
+    event.preventDefault();
+
+    const email = newsletterEmail.value.trim().toLowerCase();
+
+    if (!newsletterForm.checkValidity()) {
+      newsletterForm.reportValidity();
+      return;
+    }
+
+    if (!newsletterConsent.checked) {
+
+      newsletterMessage.textContent =
+        "Please agree to receive updates before registering.";
+
+      newsletterMessage.style.color = "#ff7777";
+
+      return;
+    }
+
+    newsletterButton.disabled = true;
+    newsletterButton.textContent = "Registering...";
+
+    newsletterMessage.textContent = "";
+
+    try {
+
+      // Generate subscriber ID
+
+      const emailBytes = new TextEncoder().encode(email);
+
+      const hashBuffer = await crypto.subtle.digest(
+        "SHA-256",
+        emailBytes
+      );
+
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+
+      const subscriberId = hashArray
+        .map(byte => byte.toString(16).padStart(2, "0"))
+        .join("");
+
+
+      // Save registration to Firestore
+
+      await setDoc(
+        doc(db, "newsletter_subscribers", subscriberId),
+        {
+          email: email,
+          consent: true,
+          consentAt: serverTimestamp(),
+          privacyVersion: "1.0",
+          source: "website"
+        }
+      );
+
+
+      newsletterMessage.textContent =
+        "Thank you! You've successfully joined the Console Refurb mailing list.";
+
+      newsletterMessage.style.color = "#64b0ff";
+
+      newsletterForm.reset();
+
+    } catch (error) {
+
+      console.error("Newsletter registration error:", error);
+
+      if (error.code === "permission-denied") {
+
+        newsletterMessage.textContent =
+          "This email may already be registered, or registration is temporarily unavailable.";
+
+      } else {
+
+        newsletterMessage.textContent =
+          "Sorry, we couldn't complete your registration. Please try again shortly.";
+
+      }
+
+      newsletterMessage.style.color = "#ff7777";
+
+    } finally {
+
+      newsletterButton.disabled = false;
+      newsletterButton.textContent = "Join Mailing List";
+
+    }
+
+  });
+
+</script>
+
+</body>
+</html>
